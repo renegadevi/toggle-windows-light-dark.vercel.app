@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <title>Toggle Windows Dark/Light Mode - A single windows click</title>
+    <style>
+        body {
+            font-family: "Geist", "Geist Fallback", sans-serif;
+            /*background: #f1f1f1;*/
+            background: white;
+        }
+    </style>
+    <meta name="title" content="Toggle Windows Dark/Light Mode">
+    <meta name="description" content="A Windows Dark/Light mode toggle app.">
+    <meta name="keywords" content="notepad,editor,win32,windows,windows11">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Philip Andersen (renegadevi)">
+    <meta name="url" content="toggle-windows-light-dark.vercel.appp">
+    <meta name="image" content="icon.png">
+    <meta name="og:title" content="Toggle Windows Dark/Light Mode">
+    <meta name="og:description" content="A Windows Dark/Light mode toggle app.">
+    <meta name="og:image" content="https://toggle-windows-light-dark.vercel.app/icon.png">
+    <meta name="og:url" content="https://toggle-windows-light-dark.vercel.app">
+    <meta name="og:type" content="website">
+    <meta name="og:locale" content="en_US">
+    <meta name="og:site_name" content="Toggle Windows Dark/Light Mode">
+    <meta name="og:image:width" content="128">
+    <meta name="og:image:height" content="128">
+    <meta name="og:image:alt" content="Toggle Windows Dark/Light Mode">
+<!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-vUdOV3UmS1cqCJIjL3J6C.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+
+</head>
+
+<body>
+    <main class="min-h-screen flex flex-col items-center justify-center px-6 py-16 gap-12">
+        <div class="grid lg:grid-cols-2 gap-6">
+        <div class="flex flex-col items-center text-center gap-6 max-w-2xl">
+            <div class="w-32 h-32 rounded-xl flex items-center justify-center bg-white">
+                <img src="icon.png" alt="Toggle Windows Dark/Light Mode">
+            </div>
+            <div class="space-y-3">
+                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-foreground text-balance">Toggle Windows Dark/Light Mode</h1>
+                <p class="text-lg text-gray-700 max-w-md mx-auto leading-relaxed">A single instant click to change Windows 11 color theme.<br><br>
+                     0.03 MB executable</p>
+            </div><a href="bin/ToggleDarkLightMode_v1.0.0.zip"
+                class="bg-blue-900 hover:bg-blue-800 text-white inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md has-[&gt;svg]:px-4 gap-2 px-6">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-monitor w-4 h-4">
+                    <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                    <line x1="8" x2="16" y1="21" y2="21"></line>
+                    <line x1="12" x2="12" y1="17" y2="21"></line>
+                </svg>Download for Windows 11</a>
+            <p class="text-sm text-gray-600">Version 1.0.0 • <a class="text-blue-900 hover:text-blue-800" href="changelog.txt">Changelog</a> • Freeware</p>
+            
+        </div>
+        <div class="w-full max-w-2xl">
+            <div class="rounded-lg border border-border overflow-hidden shadow-xl"><img alt="AppName screenshot"
+                    src="screenshot.png">
+            </div>
+        </div>
+</div>
+        <p class="text-sm text-gray-500 pt-12">Copyright © <script>document.write(new Date().getFullYear());</script>
+            - Developed by <a href="https://philipandersen.se" class="text-blue-900 hover:text-blue-800">Philip Andersen (renegadevi)</a></p>
+    </main>
+</body>
+
+</html>
